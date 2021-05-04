@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@acala-network/type-definitions@^0.7.2-4":
-  version "0.7.2-4"
-  resolved "https://registry.yarnpkg.com/@acala-network/type-definitions/-/type-definitions-0.7.2-4.tgz#df550fd4f092488b358ad9195a6bae59322809e9"
-  integrity sha512-e9nOMDc+RU1pDei0tVG4WQl84e+2BP9hoVrNdQHf6K/aRKpWhkRyAtpvTqVhZli3Zy2n83cT3XybK3SG3dtKuA==
+"@acala-network/type-definitions@^0.7.3":
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/@acala-network/type-definitions/-/type-definitions-0.7.3.tgz#e03872a79a48a39e3055ce5fdf20adc6a9b7ca65"
+  integrity sha512-ZSlBgvUNBhVKCDKFrAoI8EMW3GUfEsmzbTzuXnT/CbI4fiTomiqyZ3LOCP7Mh+N6gkd58xr1nUHRzs8LZ1nsig==
   dependencies:
-    "@open-web3/orml-type-definitions" "^0.9.1"
+    "@open-web3/orml-type-definitions" "^0.9.3"
 
 "@babel/code-frame@7.12.11":
   version "7.12.11"
@@ -284,10 +284,10 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.13.10", "@babel/runtime@^7.13.9", "@babel/runtime@^7.9.6":
-  version "7.13.10"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.13.10.tgz#47d42a57b6095f4468da440388fdbad8bebf0d7d"
-  integrity sha512-4QPkjJq6Ns3V/RgpEahRk+AGfL0eO6RHHtTWoNNr5mO49G6B5+X6d6THgWEAvTrznU5xYpbAlVKRYcsCgh/Akw==
+"@babel/runtime@^7.13.10", "@babel/runtime@^7.13.17", "@babel/runtime@^7.13.9", "@babel/runtime@^7.14.0", "@babel/runtime@^7.9.6":
+  version "7.14.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.0.tgz#46794bc20b612c5f75e62dd071e24dfd95f1cbe6"
+  integrity sha512-JELkvo/DlpNdJ7dlyw/eY7E0suy5i5GQH+Vlxaq1nsNJ+H7f4Vtv3jMeCEgRhZZQFXTjldYfQgv2qmM6M1v5wA==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -337,10 +337,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@crustio/type-definitions@0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@crustio/type-definitions/-/type-definitions-0.0.5.tgz#6be9cd9ed8ee34d6b67176f8860793b94ed72699"
-  integrity sha512-MhozPIjg4iFelKebCgQKSlz+Nm/swbdZpAeJkw+Q6IHxDws57sodpy5EMDBEgszTsB71XDouSmQzgh3or1XrsQ==
+"@crustio/type-definitions@0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@crustio/type-definitions/-/type-definitions-0.0.6.tgz#9d9b7890c5dee9e6c012c1e8e1c91d9f77d3e065"
+  integrity sha512-XcA2RlGyq2T2oU5CLGQfrg6phD5nXiT2/J6ObLGgQo6YMs+Tb5ASq7AC65ErvUytCnrpfdQiO4kkjht+x/MgFw==
   dependencies:
     "@open-web3/orml-type-definitions" "^0.8.2-9"
 
@@ -353,32 +353,32 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@darwinia/types-known@^1.1.0-alpha.6":
-  version "1.1.0-alpha.6"
-  resolved "https://registry.yarnpkg.com/@darwinia/types-known/-/types-known-1.1.0-alpha.6.tgz#6d64392a463e881eca47865e851533d34f1c72f8"
-  integrity sha512-/ECFbuMPsRSq/BiwO10sDv1JZw/fNwmTMGucYmRS1Iz/gG2uZJCbgsXssjtTdDwyuAPaKStb7CGPo0gawZbYFg==
+"@darwinia/types-known@^1.1.0-alpha.11":
+  version "1.1.0-alpha.11"
+  resolved "https://registry.yarnpkg.com/@darwinia/types-known/-/types-known-1.1.0-alpha.11.tgz#ee9712d7d4366ed978b0c17648b5097a5afa154a"
+  integrity sha512-THGxiOOqB/BbtgC929aIBKBJJGNiu0J7U2Ab9JJGw1P8M4ZEtBPBa4oBDXU00G+MghKUJ09WHvkk6nnVPMFWWA==
   dependencies:
     "@babel/runtime" "^7.9.6"
     "@polkadot/types" "4.0.4-5"
     "@polkadot/util" "6.0.5"
     bn.js "^5.1.2"
 
-"@darwinia/types@^1.1.0-alpha.6":
-  version "1.1.0-alpha.6"
-  resolved "https://registry.yarnpkg.com/@darwinia/types/-/types-1.1.0-alpha.6.tgz#acc73588b5ee9f6ecb64a2bb4a02fb02e803dda8"
-  integrity sha512-kdGUXVto8KiLEt0JKKQa8b6MZZkj4oKmXJMY+GYIlzR8eg3kUhiNgc3BUiQNEfgob/vA66Uy1L8Opam/FyJv7Q==
+"@darwinia/types@^1.1.0-alpha.11":
+  version "1.1.0-alpha.11"
+  resolved "https://registry.yarnpkg.com/@darwinia/types/-/types-1.1.0-alpha.11.tgz#d0d6d1a6730d20a53a9e221fc33273b169449732"
+  integrity sha512-yIkElIU7V4vOKobPRcszUbGUGpgakn3SlCf9S8HRWpPpqdAVl4jALJAUIBmVhtmDoUKXZDxG2VleC0u6D6YKzQ==
   dependencies:
-    "@darwinia/types-known" "^1.1.0-alpha.6"
+    "@darwinia/types-known" "^1.1.0-alpha.11"
 
-"@edgeware/node-types@^3.3.2":
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/@edgeware/node-types/-/node-types-3.3.2.tgz#cf29666457f4af8f45138cf7e67807861fb034fd"
-  integrity sha512-t6qBYHc3PYihxAp8NL0UIj6Md0a+Gr5asVMHrtVk5mgNLE+fC4XUI4jJLefexYUse1AxAMemiUKIT+BxUP8LDg==
+"@edgeware/node-types@^3.3.4":
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/@edgeware/node-types/-/node-types-3.3.4.tgz#6666cc636a11dc197813b6f56bc54f9db0a200d4"
+  integrity sha512-wCud1L4hmVeu2dkBsP3f89lWIwtg87Hh6t1AT6KvFlpR0vGWR1HLAe2ITmB9RhJdWy8NR5rLoCAEzaq4TDcctA==
 
-"@equilab/definitions@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@equilab/definitions/-/definitions-1.0.3.tgz#4cd92830d811dbb29dff58f81d6ddead869b8980"
-  integrity sha512-9Dn4kCRmyc0Jxg9TDXDkQYods0HgT0pTqlD2II7CejUY3J8G4jbVTmTgZqb5izoUw+Ei1YCDUBmNl8gt9TecSA==
+"@equilab/definitions@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@equilab/definitions/-/definitions-1.0.4.tgz#6674e650b5a54ff984dc85798643eb950b3e5aca"
+  integrity sha512-tW+khXpxHz3aZFYOXZKt7CL3PtYXqjS5mTViqu/Vlni0XmejEtBgEKWTWSDiZBJM7JAdNPMCBixNCFOT6BkLuA==
 
 "@eslint/eslintrc@^0.4.0":
   version "0.4.0"
@@ -587,6 +587,11 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
+"@kiltprotocol/type-definitions@^0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@kiltprotocol/type-definitions/-/type-definitions-0.1.3.tgz#4be80cb95a9e9f0f3c13d91e13a826b0de899727"
+  integrity sha512-kRLpFYTzbAFgjsuCSQT3QP13nyhOK6z/FtykT1rpzZzr68Fisw6zpzkCMGBT7dazFN4FvQ8TCXuUWOGHbBWSVQ==
+
 "@laminar/type-definitions@^0.3.1":
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/@laminar/type-definitions/-/type-definitions-0.3.1.tgz#e1b62ab353245f9b3454cb5d909a329f66aaac8f"
@@ -620,10 +625,15 @@
   resolved "https://registry.yarnpkg.com/@open-web3/orml-type-definitions/-/orml-type-definitions-0.8.2-11.tgz#56358d371b63f83761234a7b1283ac9008e6dddd"
   integrity sha512-cUv5+mprnaGNt0tu3FhK1nFRBK7SGjPhA1O0nxWWeRmuuH5fjkr0glbHE9kcKuCBfsh7nt6NGwxwl9emQtUDSA==
 
-"@open-web3/orml-type-definitions@^0.9.1":
-  version "0.9.1"
-  resolved "https://registry.yarnpkg.com/@open-web3/orml-type-definitions/-/orml-type-definitions-0.9.1.tgz#6c0572ec8a879f23a4f45df29abff8af328d1c83"
-  integrity sha512-nC/csEqQsHtYQBUSOy+P5UOuH8oV71+LxUAwYbiiK1iDYF2L/xv6xFrGE+tnabs3eAkeF9zbin0aWq6beVQebg==
+"@open-web3/orml-type-definitions@^0.9.3":
+  version "0.9.3"
+  resolved "https://registry.yarnpkg.com/@open-web3/orml-type-definitions/-/orml-type-definitions-0.9.3.tgz#6bf2ff02c108fa0b4416798f27449f14b16f420f"
+  integrity sha512-Sq88InH7Ca5XbPP2xIzXaZukw0lHG9prpK/y/UA51owscJYQr1y3f6+x8qSUVXMQwowajtODKVVZr4a9wBWi/w==
+
+"@phala/typedefs@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@phala/typedefs/-/typedefs-0.1.0.tgz#1578dff6e2a2cfb9fe2c02d1bf14b4c332b7b3ab"
+  integrity sha512-pSC/QNThQxy1LDryUSysXooxZl/i294d8M/izrOl5vCETc9qscXjQGvgrNBwiH72/Q3XB7DeBtM3VQ7aNCK/5w==
 
 "@polkadot/api-derive@4.3.1":
   version "4.3.1"
@@ -658,23 +668,26 @@
     bn.js "^4.11.9"
     eventemitter3 "^4.0.7"
 
-"@polkadot/apps-config@^0.86.1":
-  version "0.86.1"
-  resolved "https://registry.yarnpkg.com/@polkadot/apps-config/-/apps-config-0.86.1.tgz#895744908f903c988ff7f0ec76812d5b1c8d70d6"
-  integrity sha512-yEwhAplA70v9+Va2z89swK2i4M2MO5akpW1RAueDW09n5B74D8LWUoUo5VfxA75ILb8DXzepjiaBAekcWyiuIw==
+"@polkadot/apps-config@^0.90.1":
+  version "0.90.1"
+  resolved "https://registry.yarnpkg.com/@polkadot/apps-config/-/apps-config-0.90.1.tgz#b2157ea1e5c7d2bb60e567c6c542f5ff249dfc66"
+  integrity sha512-7yjPvn+t7WRldsg6lNJNd69yVggc4ufcLYEkUXvnVTA9mWuk81RbT/rIhaiYOna2UxeuK5WF9YMGWsEubz+PLQ==
   dependencies:
-    "@acala-network/type-definitions" "^0.7.2-4"
-    "@babel/runtime" "^7.13.10"
-    "@crustio/type-definitions" "0.0.5"
-    "@darwinia/types" "^1.1.0-alpha.6"
-    "@edgeware/node-types" "^3.3.2"
-    "@equilab/definitions" "1.0.3"
+    "@acala-network/type-definitions" "^0.7.3"
+    "@babel/runtime" "^7.14.0"
+    "@crustio/type-definitions" "0.0.6"
+    "@darwinia/types" "^1.1.0-alpha.11"
+    "@edgeware/node-types" "^3.3.4"
+    "@equilab/definitions" "1.0.4"
     "@interlay/polkabtc-types" "^0.6.2"
+    "@kiltprotocol/type-definitions" "^0.1.3"
     "@laminar/type-definitions" "^0.3.1"
-    "@polkadot/networks" "^6.0.5"
+    "@phala/typedefs" "0.1.0"
+    "@polkadot/networks" "^6.3.1"
     "@snowfork/snowbridge-types" "^0.2.3"
-    "@sora-substrate/type-definitions" "^0.6.11"
-    "@subsocial/types" "^0.4.35-beta.2"
+    "@sora-substrate/type-definitions" "^0.8.14"
+    "@subsocial/types" "^0.5.0-substrate2.0"
+    "@zeitgeistpm/type-defs" "^0.1.47"
     moonbeam-types-bundle "1.1.12"
 
 "@polkadot/keyring@^6.0.5":
@@ -710,12 +723,19 @@
     "@polkadot/util-crypto" "^6.0.5"
     bn.js "^4.11.9"
 
-"@polkadot/networks@6.0.5", "@polkadot/networks@^6.0.5":
+"@polkadot/networks@6.0.5":
   version "6.0.5"
   resolved "https://registry.yarnpkg.com/@polkadot/networks/-/networks-6.0.5.tgz#36271138eb2b1b7d79462fa89544d1b90fa77010"
   integrity sha512-QSa5RdK43yD4kLsZ6tXIB652bZircaVPOpsZ5JFzxCM4gdxHCSCUeXNVBeh3uqeB3FOZZYzSYeoZHLaXuT3yJw==
   dependencies:
     "@babel/runtime" "^7.13.9"
+
+"@polkadot/networks@^6.0.5", "@polkadot/networks@^6.3.1":
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/@polkadot/networks/-/networks-6.3.1.tgz#c5063681ea73f8b579f418d57d0eba2d4bb72292"
+  integrity sha512-oANup0CLGt75CPbE3gz2HUWUlqQKucImdb1TtStLXMUH+Aj8ZOnQFA2lwixzaRdx+ymPfmEL7GkF36i96OqQVw==
+  dependencies:
+    "@babel/runtime" "^7.13.17"
 
 "@polkadot/rpc-core@4.3.1":
   version "4.3.1"
@@ -946,25 +966,25 @@
   resolved "https://registry.yarnpkg.com/@snowfork/snowbridge-types/-/snowbridge-types-0.2.3.tgz#f562d4acb9aa75217c6183abc140daa8030723fb"
   integrity sha512-utxjBiUhtUY/O9dDsnABP6NwF9i4z71/Ywa7cFjohO/8xFxabjRppvE2QLwOIOuBp6OBsvNPtXAaUSUAsrOYRA==
 
-"@sora-substrate/type-definitions@^0.6.11":
-  version "0.6.16"
-  resolved "https://registry.yarnpkg.com/@sora-substrate/type-definitions/-/type-definitions-0.6.16.tgz#326bd202b2d2e05ecdd4f4f820850babfbf51ff6"
-  integrity sha512-LUg3IXOAv2o1hoCAHJOfwuuBDsu38CDsg7y8vg7CxFqCqBaO6GrVoiEH7R3K3D8sCYP0BYhOCk6WWmm5O+qBkA==
+"@sora-substrate/type-definitions@^0.8.14":
+  version "0.8.18"
+  resolved "https://registry.yarnpkg.com/@sora-substrate/type-definitions/-/type-definitions-0.8.18.tgz#dd329dd1048b661ba507814cae7ecddfbd4fa9e9"
+  integrity sha512-zDscsukSgQh2wx2aXRICffw5dugWQlQpEjHYs8GKLv+DwpkuQir6snfGkxI83Jq0qqrDZgigjGfU47V7zc46KA==
   dependencies:
     "@open-web3/orml-type-definitions" "^0.8.2-9"
 
-"@subsocial/types@^0.4.35-beta.2":
-  version "0.4.35-beta.2"
-  resolved "https://registry.yarnpkg.com/@subsocial/types/-/types-0.4.35-beta.2.tgz#e94d9d4a458cb1bbcb05506a1493854b0d86d419"
-  integrity sha512-yY5LYexmeO1/03SgJbl+vUeeu/GlRrfV9LGAonTcI+Glab6TntiuiIkKgrenmDKd+Pl+JKyj1eqDi0mXt1Dojg==
+"@subsocial/types@^0.5.0-substrate2.0":
+  version "0.5.0-substrate2.0"
+  resolved "https://registry.yarnpkg.com/@subsocial/types/-/types-0.5.0-substrate2.0.tgz#75974eab6b216456955865cb02e3d06caa1c87c9"
+  integrity sha512-AwJqDt68YBhFfbzahsp+d4Y7TapA9Z41Kbo10++IDeyd+5dmSp4OYEx8RVsV2JDHubYYyZ4UgnDiDRHT4zLEBg==
   dependencies:
-    "@subsocial/utils" "^0.4.33"
+    "@subsocial/utils" "^0.4.39"
     cids "^0.7.1"
 
-"@subsocial/utils@^0.4.33":
-  version "0.4.38"
-  resolved "https://registry.yarnpkg.com/@subsocial/utils/-/utils-0.4.38.tgz#d077304661a62440a2bb2f166a66756e91907814"
-  integrity sha512-721Ggt/jSce6aPo3VP0U8XtwDeZOjh4o0z6i2cL9CaJN26gsGhxVOvlS1gKevIhU45Ffvgl3vjqI/D4I54X5Tg==
+"@subsocial/utils@^0.4.39":
+  version "0.4.39"
+  resolved "https://registry.yarnpkg.com/@subsocial/utils/-/utils-0.4.39.tgz#0b069a0e55950ffef6ceb002aea1cdec96d5f133"
+  integrity sha512-pvD5f5r0W8dGVNCmEO2LV4vWY3dvThgABMvzHmtIAXHAo7aixyz5vSc+t0x8kDRVEEAYL09URaL32bVKnAyaxw==
   dependencies:
     "@sindresorhus/slugify" "^1.1.0"
     bn.js "^5.1.1"
@@ -1293,6 +1313,11 @@
   dependencies:
     "@typescript-eslint/types" "4.17.0"
     eslint-visitor-keys "^2.0.0"
+
+"@zeitgeistpm/type-defs@^0.1.47":
+  version "0.1.47"
+  resolved "https://registry.yarnpkg.com/@zeitgeistpm/type-defs/-/type-defs-0.1.47.tgz#fbf51b80ee5b67a17cf5b4647738331b9f02c3e5"
+  integrity sha512-3KU7GLiMiLjZYG5ePnOEbrCUQD5ipSP2PPArs8PNah6vj29McbFOZlrqCAmRlC55JpU38209dIOqIpVjPladMA==
 
 JSONStream@^1.0.4:
   version "1.3.5"
