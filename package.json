@@ -38,7 +38,7 @@
   "dependencies": {
     "@polkadot/api": "^4.3.1",
     "@polkadot/apps-config": "^0.86.1",
-    "@polkadot/util-crypto": "^6.0.5",
+    "@polkadot/util-crypto": "^10.4.2",
     "@substrate/calc": "^0.2.0",
     "confmgr": "^1.0.6",
     "express": "^4.17.1",
